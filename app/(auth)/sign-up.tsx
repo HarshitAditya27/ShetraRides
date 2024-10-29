@@ -9,6 +9,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import OAuth from "./OAuth";
 import { useSignUp } from "@clerk/clerk-expo";
 import ReactNativeModal from "react-native-modal";
+import { fetchAPI } from "@/lib/fetch";
 
 function SignUp() {
   const [form, setForm] = useState({ name: "", email: "", password: "" });
@@ -55,6 +56,14 @@ function SignUp() {
       });
 
       if (completeSignUp.status === "complete") {
+        await fetchAPI("/(api)/user", {
+          method: "POST",
+          body: JSON.stringify({
+            name: form.name,
+            email: form.email,
+            clerkId: completeSignUp.createdUserId,
+          }),
+        });
         await setActive({ session: completeSignUp?.createdSessionId });
         setVerification({ ...verification, state: "success" });
       } else {
