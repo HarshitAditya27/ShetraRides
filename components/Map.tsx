@@ -25,8 +25,8 @@ const drivers = [
   },
   {
     id: "2",
-    first_name: "David",
-    last_name: "Brown",
+    first_name: "Patrik",
+    last_name: "Bateman",
     profile_image_url:
       "https://ucarecdn.com/6ea6d83d-ef1a-483f-9106-837a3a5b3f67/-/preview/1000x666/",
     car_image_url:
