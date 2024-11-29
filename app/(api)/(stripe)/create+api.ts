@@ -31,12 +31,12 @@ export async function POST(request: Request) {
 
   const ephemeralKey = await stripe.ephemeralKeys.create(
     { customer: customer.id },
-    { apiVersion: "2024-06-20" }
+    { apiVersion: "2023-10-16" }
   );
 
   const paymentIntent = await stripe.paymentIntents.create({
     amount: parseInt(amount) * 100,
-    currency: "INR",
+    currency: "usd",
     customer: customer.id,
     automatic_payment_methods: {
       enabled: true,

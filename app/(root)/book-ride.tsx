@@ -14,8 +14,8 @@ function BookRide() {
   const { userAddress, destinationAddress } = useLocationStore();
   const { drivers, selectedDriver } = useDriverStore();
 
-  console.log({ drivers });
-  console.log({ selectedDriver });
+  // console.log({ drivers });
+  // console.log({ selectedDriver });
 
   const driverDetails = drivers?.filter(
     (driver) => +driver.id === selectedDriver
@@ -93,11 +93,11 @@ function BookRide() {
             </View>
           </View>
           <Payment
-          // fullName={user?.fullName!}
-          // email={user?.emailAddresses[0].emailAddress!}
-          // amount={driverDetails?.price!}
-          // driverId={driverDetails?.id}
-          // rideTime={driverDetails?.time}
+            fullName={user?.fullName!}
+            email={user?.emailAddresses[0].emailAddress!}
+            amount={driverDetails?.price!}
+            driverId={driverDetails?.id}
+            rideTime={driverDetails?.time}
           />
         </>
       </RideLayout>

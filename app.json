@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/images/s2.png",
       "resizeMode": "contain",
-      "backgroundColor": "##fbf7f7"
+      "backgroundColor": "#fbf7f7"
     },
     "ios": {
       "supportsTablet": true
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.harshitaditya27.shetra"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5908a5f-51b0-4b6a-b31a-552ae4019163"
+      }
     }
   }
 }
