@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+<p align='center'><img src='https://github.com/user-attachments/assets/c4ca5c3b-eeee-4c7e-a189-45887e5dc49d' width="250" ></p>
+<h1 align='center'>ShetraRides 🚖</h1> 
+<p align='center'> <a href="https://youtu.be/qgOQoTaGZok">Demo Link</a> </p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Introduction 🐱‍💻
+- ShetraRides is a React Native-based cab booking application that allows users to book cabs seamlessly. Key features include ride booking, viewing ride history, real-time map directions from pickup to destination, user profile and secure Google OAuth authentication.
+- Powered by <a href="https://console.cloud.google.com/marketplace/product/google/places-backend.googleapis.com"> Google Places API</a> and <a href="https://console.cloud.google.com/marketplace/product/google/directions-backend.googleapis.com">Directions API</a>, it offers recommended destinations and places for convenience. NeonDB is used for storing and displaying real-time dynamic data, ensuring a smooth user experience.
+- Initially integrated with Stripe as a payment gateway, the app adapts to India-specific constraints by bypassing Stripe to maintain functionality without compromising user experience as Stripe is not available in Inida.
+## Tech Stack used 👨‍💻
 
-## Get started
+- **TailwindCSS** 
+- **TypeScript** 
+- **NeonDB**
+- **React Native** 
+## Features 🧰
+- User **authentication** 🔒.
+- **Book** rides 🚕.
+- **Seperate profile page** for each users 👤.
+- **Map directions** from pickup to destination 📌.
+- **Stores** previous history of Rides booked 💾.
 
-1. Install dependencies
+## Learnings 📝
+  
+- As this was my first experience developing a fully-fledged React Native application, implementing the complete setup and structure proved to be a challenging task for me.   
+- Learned how to use **Google Maps API** and **Google Directions API** together to create seamless map functionality for our application. 
+  
+## Screenshots  
+![s2](https://github.com/user-attachments/assets/6bb51745-48a5-4609-8459-0cfbbf5df44a)
+![1](https://github.com/user-attachments/assets/0beb4623-3b8e-4fd3-b070-d2fe41cc283b)
+![2](https://github.com/user-attachments/assets/8d540368-fd34-460c-a893-6bf188e5c39e)
+![3](https://github.com/user-attachments/assets/11bb5486-eae0-4581-9c17-d8ad4ad6fe00)
+![4](https://github.com/user-attachments/assets/a152daf2-fb20-4c23-8c7e-d5e92d527e37)
+![5](https://github.com/user-attachments/assets/e618bebd-da4a-40ea-922a-667886aa4061)
+![6](https://github.com/user-attachments/assets/36c331d0-bebe-4127-a7f7-fc65d1b7ea78)
+![7](https://github.com/user-attachments/assets/cf30aa39-29e5-466a-bcf4-2c72ee069731)
+![8](https://github.com/user-attachments/assets/0ec98e47-5f42-4ac9-a280-a6653c43ff6d)
+![9](https://github.com/user-attachments/assets/1d9c7e84-c159-4c4a-b11b-b94738d1956f)
+![10](https://github.com/user-attachments/assets/c2f7e11d-c195-443e-8cde-217956e39d24)
+![11](https://github.com/user-attachments/assets/339eb157-8bab-4f01-a74b-ac06df43afad)
+![12](https://github.com/user-attachments/assets/01ad4b23-8178-4494-9f39-8036df4aeb2b)
+![13](https://github.com/user-attachments/assets/15382e1e-7153-4f94-b2d2-14fdcf2a8dfa)
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Loved the project 💖? 
+  
+  If you found the project intresting then please do give this project a star ⭐. 
+  <br> <br> <br>
+   <p align="center" width="100%">
+   Made with 💖 by Harshit Aditya   
+</p>
